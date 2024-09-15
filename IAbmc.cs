@@ -9,11 +9,12 @@ namespace Crud.Interfaces
 {
     internal interface IAbmc<T>:IId
     {
+        /*logica del negocio*/
 
-        void Modify(T data);
-        void Erase(T data);
-        Usuario Find(T data);
-        T Add(T data);
-        void Add(Usuario usuario);
+        void Modify();
+        void Erase();
+        T Find();
+        void Add();
+        
     }
 }

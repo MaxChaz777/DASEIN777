@@ -15,9 +15,8 @@ namespace Crud.Interfaces
         string Titulo { get; set; }
         int Duracion { get; set; }
 
-        Carrera FindBySigla(string sigla);
-        List<Carrera> List();
-        bool NombreExists(string nombre); 
-        bool SiglaExists(string sigla);
+       bool FindBySigla();
+        bool NombreExists(); 
+        bool SiglaExists();
     }
 }

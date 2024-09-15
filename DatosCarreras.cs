@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Crud.Interfaces
+namespace Crud.Datos
 {
-    internal interface IId
+    internal partial class DatosCarreras
     {
-        int ID { get; set; }
     }
 }
